@@ -1,0 +1,97 @@
+{
+  "portfolios": {
+    "web-development": [
+      {
+        "id": "1a",
+        "title": "Tailored restaurant website with safari booking features",
+        "image": "assets/img/manyiri-photos/kibo-restaurant-and-safari-manyiri-developers.png",
+        "alt": "Screenshot of Kibo Restaurant and Safari website by Manyiri Developers",
+        "link": "https://kiborestaurantwatamu.com/"
+      },
+      {
+        "id": "2a",
+        "title": "Marine logistics service site with fast load time",
+        "image": "assets/img/manyiri-photos/boat-cargo-unlashing-manyiri-developers.jpg",
+        "alt": "Boat cargo service website designed for Mercury Marine by Manyiri Developers",
+        "link": "https://mercurymarineservices.com/"
+      },
+      {
+        "id": "3a",
+        "title": "Charity platform for clean water donations",
+        "image": "assets/img/manyiri-photos/donate-maji-kwa-manyiri-developers.jpg",
+        "alt": "MKW Foundation donation page screenshot developed by Manyiri",
+        "link": "https://majikwawatotofoundation.com/"
+      },
+      {
+        "id": "4a",
+        "title": "Educational Bookshop – Digital Storefront [In Progress]",
+        "image": "assets/img/manyiri-photos/mtwapa-textbooks-manyiri-developers.jpg",
+        "alt": "Mtwapa Books Centre online storefront built by Manyiri Developers",
+        "link": "https://www.mtwapabookscenter.com/"
+      }
+      
+    ],
+    "social-media-management": [
+          {
+        "id": "1b",
+        "title": "Boosted LinkedIn for corporate water solutions",
+        "image": "assets/img/manyiri-photos/new-dutch-water-manyiri-developers.jpg",
+        "alt": "LinkedIn social media campaign screenshot for New Dutch Water",
+        "link": "https://www.linkedin.com/company/dutch-water-limited/posts/?feedView=all"
+      },
+      {
+        "id": "2b",
+        "title": "Instagram growth for a creative male brand",
+        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "alt": "Instagram branding for personal influencer profile by Manyiri",
+        "link": "https://www.instagram.com/youngkingjr254/"
+      },
+      {
+        "id": "3b",
+        "title": "TikTok support for new female content creator",
+        "image": "assets/img/manyiri-photos/lin-manyiri-developers.jpg",
+        "alt": "TikTok creator growth visuals supported by Manyiri Social Media",
+        "link": "https://www.tiktok.com/@its_leih_b"
+      },
+      {
+        "id": "4b",
+        "title": "Lifestyle storytelling for a coastal brand promoter",
+        "image": "assets/img/manyiri-photos/matilda-manyiri-developers.png",
+        "alt": "Instagram lifestyle feed screenshot for Watamu influencer",
+        "link": "https://www.instagram.com/kadzo.matilda/"
+      }
+  
+      
+    ],
+    "photography": [
+      {
+        "id": "1c",
+        "title": "Strong portraits for professionals and brands",
+        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "alt": "Professional portrait example from Manyiri photography team",
+        "link": "https://www.instagram.com/tuvajoseph.films/"
+      },
+      {
+        "id": "2c",
+        "title": "Aerial drone shots that elevate your story",
+        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "alt": "Drone photography sample by Manyiri Developers",
+        "link": "https://www.instagram.com/lex_productions_/"
+      },
+      {
+        "id": "3c",
+        "title": "Shoots anywhere from Mombasa to Malindi",
+        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "alt": "Coastal shoot location photo by Manyiri on Kenyan Coast",
+        "link": "https://www.instagram.com/lex_productions_/"
+      },
+      {
+        "id": "4c",
+        "title": "Showcasing nature’s finest details",
+        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "alt": "Nature-focused photography by Manyiri",
+        "link": "https://www.instagram.com/tuvajoseph.films/"
+      }
+    ]
+  }
+}

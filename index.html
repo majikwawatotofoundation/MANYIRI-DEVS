@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Manyiri Developers</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+   <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- Animate.js -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     <!-- GLightbox CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+      <!--Swiper.js-->
+  <!--Swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">  
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg " id="navbar-bg">
+    <div class="container-fluid">
+        <a href="index.html" class="logo navbar-brand">
+        <h1 id="brand">Manyiri Developers</h1>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i> 
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+  </header>
+
+  <main class="main  "> 
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background"    >
+      <div class="parallax-bg " style="
+          background-image: url(assets/img/manyiri-photos/code-banner.jpg);
+        " data-swiper-parallax="-23%"></div>
+      <div class="container">
+        <div class="row gy-4 ">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 id="welcome-message" data-aos="zoom-in-up" data-aos-delay="200">Welcome to <span  data-aos="zoom-in-up" >Manyiri Developers</span></h1>
+              <p data-aos="zoom-in-up" data-aos-delay="300">Custom websites, smart digital strategy, and striking photography — all in one place.</p>
+
+            <div class="d-flex animate__animated animate__bounce 4s" data-aos="zoom-in-up" data-aos-delay="400" >
+              <a href="#services" class="btn-get-started">See What We Do</a>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    
+    </section><!-- /Hero Section -->
+
+
+<!-- About Section -->
+<section id="about" class="about section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title">
+    <p><span>Learn More</span> <span class="description-title">About Manyiri</span></p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-3">
+
+      <div class="col-lg-6">
+        <img src="assets/img/manyiri-photos/ideas-manyiri-developers.jpg" alt="Creative Team - Manyiri Developers" class="img-fluid">
+      </div>
+
+      <div class="col-lg-6 d-flex flex-column justify-content-center">
+        <div class="about-content ps-0 ps-lg-3">
+          <h3><i class="bi bi-people-fill"></i> We Are Manyiri Developers</h3>
+          <p class="fst-italic">
+            Manyiri isn't just a team — it's a movement. We're a growing network of young creatives from Kenya’s coast and beyond. You’ll find us in Mombasa, Kilifi, Ukunda, Watamu — even where there’s no office or map pin. We show up, we create, and we grow together.
+          </p>
+
+          <p>
+            <i class="bi bi-code-slash"></i> Web Developers who bring ideas to life with clean, powerful code.  
+          </p>
+          <p> <i class="bi bi-megaphone"></i> Digital Campaigners & Social Media Managers who build real online presence. </p> 
+           <p><i class="bi bi-camera-fill"></i> Photographers who capture culture, identity, and moments.</p>
+            <p><i class="bi bi-person-video3"></i> Content Creators who influence with originality.  </p> 
+            <p><i class="bi bi-award-fill"></i> And yes — we’ve got mentor support in the background guiding it all.</p>
+            
+          
+
+          <!-- <p>
+            We believe in **access over status**, **teamwork over titles**, and **value over hype**. That’s why our services are affordable, our skills always evolving, and our goals rooted in helping each other rise.
+          </p>
+
+          <p>
+            There’s no central HQ. We are everywhere — connected, creative, and ready to build with you.
+          </p> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /About Section -->
+
+
+   
+
+    <!-- Services Section -->
+   <!-- Services Section -->
+<section id="services" class="services section">
+  <!-- Section Title -->
+  <div class="container section-title">
+ <p><span>Creative, Clean, Bold Solutions:</span> <span class="description-title">What We Offer</span></p>
+
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <img src="assets/img/manyiri-photos/web-development-manyiri-developers.jpg" class="img-fluid" alt="Custom website design">
+          <i class="bi bi-code-slash"></i>
+          <h3>Custom Web Development</h3>
+          <p>We build responsive websites focused on functionality, design, and your unique goals — every detail aligned with your brand.</p>
+        </div><!-- End Service Item -->
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <img src="assets/img/manyiri-photos/social-media-manyiri-developers.jpg" class="img-fluid" alt="Social media management">
+          <i class="bi bi-share-fill"></i>
+          <h3>Strategic Social Media</h3>
+          <p>We build authentic online presence through curated campaigns that connect, engage, and grow.</p>
+        </div><!-- End Service Item -->
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <img src="assets/img/manyiri-photos/photography-manyiri-developers.jpg" class="img-fluid" alt="Professional photography">
+          <i class="bi bi-camera-reels"></i>
+          <h3>Photos That Tell Your Story</h3>
+          <p>Professional photography that captures your essence and strengthens your visual brand across platforms.</p>
+        </div><!-- End Service Item -->
+      </div>
+    </div>
+  </div>
+</section><!-- /Services Section -->
+<!--Call to action  -->
+<section class="manyiri-cta" id="work-with-us">
+  <div class="container">
+     <div class="container section-title">
+      <p><span>Have something you want built?</span></p>
+      
+      <p><span class="description-title">We don’t just code. We develop ideas, stories, and futures — together.</span></p>
+     
+   
+
+    <div class="cta-buttons">
+      <a href="#contact" class="cta-btn">Fill the Contact Form</a>
+      <a href="mailto:info@manyiridevs.xyz" class="cta-btn" target="_blank">Email Us</a>
+      <a href="https://wa.me/254797211294 " class="cta-btn whatsapp" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+  <!-- Section Title -->
+  <div class="container section-title">
+    <p><span>See the Journey:</span> <span class="description-title">Our Portfolios</span></p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div>
+      <!-- Category Tabs -->
+      <ul class="tabs">
+        <li data-tab-target="web-development" class="active tab"><h4>Web Development</h4></li>
+        <li data-tab-target="social-media-management" class="tab"><h4>Social Media Management</h4></li>
+        <li data-tab-target="photography" class="tab"><h4>Photography</h4></li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content">
+        <div id="web-development" data-tab-content class="active">
+          <div class="swiper portfolios-slider">
+            <div class="swiper-wrapper" id="web-development-slides"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div id="social-media-management" data-tab-content>
+          <div class="swiper portfolios-slider">
+            <div class="swiper-wrapper" id="social-media-slides"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div id="photography" data-tab-content>
+          <div class="swiper portfolios-slider">
+            <div class="swiper-wrapper" id="photography-slides"></div> <!-- Fixed ID -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Portfolio Section -->
+<section></section>
+
+  <!-- Team Section -->
+    <!-- Team Section -->
+   <!-- Team Section -->
+<section id="team" class="team section light-background">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <p><span>Driven by Passion, Powered by People:</span> <span class="description-title">Our Team</span></p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/timothy-mwaro-manyiri-developers.jpg" class="img-fluid" alt="Timothy Mwaro">
+            <div class="social">
+              <span aria-label="Web Developer"> <i class="bi bi-laptop"></i> 
+               <i class="bi bi-code-slash"></i></span>
+             
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Timothy Mwaro</h4>
+            <span>Web Developer</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/vincent-odour-manyiri-developers.jpg" class="img-fluid" alt="Vincent Odour">
+            <div class="social">
+                <span aria-label="Digital Campaigns & Social Manager"><i class="bi bi-megaphone"></i></span>
+              
+           
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Vincent Odour</h4>
+            <span>Digital Campaigns & Social Manager</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/joseph-thuva-anyiri-developers.jpg" class="img-fluid" alt="Joseph Thuva">
+            <div class="social">
+               <span aria-label="Photographer"><i class="bi bi-camera"></i></i> </i></span>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Joseph Thuva</h4>
+            <span>Photographer</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/lenox-manyiri-developers.jpg" class="img-fluid" alt="Lenox">
+            <div class="social">
+              <span aria-label="Photographer"><i class="bi bi-camera"></i></i> </i></span>
+            
+              
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Lenox</h4>
+            <span>Photographer</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/matilda-manyiri-developers.png" class="img-fluid" alt="Matilda Kadzo">
+            <div class="social">
+              <span aria-label="Lifestyle Content Creator"><i class="bi bi-person-lines-fill"></i> </i></span>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Matilda Kadzo</h4>
+            <span>Lifestyle Content Creator</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="600">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="assets/img/manyiri-photos/jake-onyango-manyiri-developers.jpg" class="img-fluid" alt="Mentor (Anonymous)">
+            <div class="social">
+              <span aria-label="Senior Developer"><i class="bi bi-shield-lock"></i> </i></span>
+              
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Mentor (Anonymous)</h4>
+            <span>Senior Developer</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+    </div>
+  </div>
+</section><!-- /Team Section -->
+<!-- Team Section -->
+
+
+
+    <!-- Contact Section -->
+   <section id="contact" class="contact section">
+  <!-- Section Title -->
+  <div class="container section-title">
+    <p><span>Let’s Build Together</span> <span class="description-title">Reach Manyiri</span></p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="info-wrap">
+          <div class="info-item d-flex">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Our Network</h3>
+              <p>Based in Mombasa, active across Kilifi, Watamu, Ukunda & more. We work as a 
+                connected team—remote, flexible, and ready to assist wherever you are.</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex">
+        <i class="bi bi-whatsapp flex-shrink-0"></i>
+        <div>
+          <h3>Call or WhatsApp</h3>
+          <p><a href="https://wa.me/254797211294" target="_blank">+254 797 211 294</a></p>
+          <p><a href="https://wa.me/254796567912" target="_blank">+254 796 567 912</a></p>
+        </div>
+        </div><!-- End Info Item -->
+
+          <div class="info-item d-flex">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p>info@manyiridevs.xyz</p>
+            </div>
+          </div><!-- End Info Item -->
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+      <form id="contact-form" class="contact-form">
+  <div class="row gy-4">
+    <div class="col-md-6">
+      <label for="name" class="pb-2">Your Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        required
+        autocomplete="name"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="pb-2">Your Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        required
+        autocomplete="email"
+      />
+    </div>
+    <div class="col-md-12">
+      <label for="subject" class="pb-2">Subject</label>
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        class="form-control"
+        required
+        autocomplete="on"
+      />
+    </div>
+    <div class="col-md-12">
+      <label for="message" class="pb-2">Message</label>
+      <textarea
+        name="message"
+        id="message"
+        class="form-control"
+        rows="10"
+        required
+        autocomplete="on"
+      ></textarea>
+    </div>
+    <div class="col-md-12 text-center">
+      <button type="submit">Send Message</button>
+    </div>
+  </div>
+</form>
+      </div><!-- End Contact Form -->
+    </div>
+  </div>
+</section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Manyiri Developers</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Mombasa, kenya</p>
+            
+            <p class="mt-3"><strong>Phone:</strong> <span>+254 (0) 797 2112 94</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+254 (0) 796 567 912</span></p>
+            <p><strong>Email:</strong> <span>info@manyiridevs.xyz</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4> Quick Access</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web & App Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Digital Campaigns</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Content Creation & Photography</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Social Media Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Brand Strategy & Mentorship</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+ <div class="container copyright text-center mt-4">
+  <p>© <span>Copyright</span> <strong class="px-1 sitename">Manyiri Developers</strong> <span>All Rights Reserved</span></p>
+  <div class="credits">
+    Built by Manyiri Developers. Inspired by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a> and <a href="https://colorlib.com/" target="_blank">Colorlib</a>.
+  </div>
+</div>
+
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  <!--Email.js-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- AOS JS Files -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- GLightbox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/header-hero.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/fetch-portfolios.js"></script>
+   <script src="assets/js/other-swipers.js"></script>
+   <script src="assets/js/contact.js"></script>
+  
+  
+ 
+
+
+
+</body>
+
+</html>
