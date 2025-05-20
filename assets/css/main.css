@@ -21,6 +21,7 @@ Higly Cystomized by Manyiri Developers
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
+
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #222222;  /* The default color of the main navmenu links */
@@ -1608,4 +1609,59 @@ section:not(#hero, .footer) {
   }
 }
 
+
+/*******************************
+ 
+     Notification Styles
+ 
+ 
+ ************************** */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  max-width: 320px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: var(--heading-font), sans-serif; /* Montserrat */
+  font-size: 16px;
+  line-height: 1.5;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.notification.success {
+  background-color: #28a745; /* Green for success */
+  color: var(--contrast-color); /* #ffffff */
+  border-left: 4px solid var(--accent-color); /* #106eea */
+}
+
+.notification.error {
+  background-color: #dc3545; /* Red for error */
+  color: var(--contrast-color); /* #ffffff */
+  border-left: 4px solid #b02a37; /* Darker red */
+}
+
+.notification.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.notification.hidden {
+  display: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .notification {
+    top: 10px;
+    right: 10px;
+    max-width: 90%;
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+}
 
