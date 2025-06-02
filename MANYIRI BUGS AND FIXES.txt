@@ -1,0 +1,14 @@
+1. pLACEHOLDER FOR PORTFOLIO IMAGES
+  =
+2. Minify all images
+   =
+3. Add photographers.html/Practice fetchin again
+
+  =
+4.Update animations
+=
+
+5.Update Ruth number
+=
+
+6.
