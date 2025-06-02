@@ -300,6 +300,15 @@ p {
 }
 
 /* Responsive logo */
+.navbar-brand {
+  display:flex;
+  gap:2px;
+}
+.navbar-brand .logo{
+  width: clamp(60px, 10vw, 100px);
+  height: auto;
+}
+
 .navbar-brand h1 {
   font-size: clamp(1.2rem, 4vw, 2rem);
   margin: 0;
