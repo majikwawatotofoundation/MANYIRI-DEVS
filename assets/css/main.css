@@ -989,7 +989,7 @@ section,
 }
 
 .cta-btn {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   color: #007BFF;
   padding: 12px 20px;
   text-decoration: none;
@@ -1674,3 +1674,87 @@ section:not(#hero, .footer) {
   }
 }
 
+ /* Section Styling */
+    .policy-terms-section {
+      background: var(--background-color);
+      color: var(--default-color);
+      font-family: var(--default-font);
+      padding: 60px 0;
+    }
+    .policy-terms-section .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .policy-terms-section h1 {
+      font-family: var(--heading-font);
+      font-size: 28px;
+      color: var(--heading-color);
+      margin: 0 0 20px;
+    }
+    .policy-terms-section h2 {
+      font-family: var(--heading-font);
+      font-size: 20px;
+      color: var(--accent-color);
+      margin: 30px 0 15px;
+      text-align: left;
+    }
+    .policy-terms-section p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0 0 15px;
+      text-align: left;
+    }
+    .policy-terms-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+      text-align: left;
+    }
+    .policy-terms-section ul li {
+      font-size: 16px;
+      margin: 10px 0;
+      position: relative;
+      padding-left: 30px;
+    }
+    .policy-terms-section ul li::before {
+      content: "✔";
+      color: #28a745; /* Green checkmark, consistent with invoice CTA */
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    .policy-terms-section a {
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .policy-terms-section a:hover {
+      color: var(--nav-hover-color);
+      text-decoration: underline;
+    }
+    .policy-terms-section .cta {
+      display: inline-block;
+      background: #28a745;
+      color: var(--contrast-color);
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 20px 0;
+      transition: background 0.3s;
+    }
+    .policy-terms-section .cta:hover {
+      background: #218838;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .policy-terms-section { padding: 40px 0; }
+      .policy-terms-section .container { padding: 0 15px; }
+      .policy-terms-section h1 { font-size: 24px; }
+      .policy-terms-section h2 { font-size: 18px; }
+      .policy-terms-section p, .policy-terms-section ul li { font-size: 14px; }
+      .policy-terms-section .cta { font-size: 14px; padding: 10px 20px; }
+    }
