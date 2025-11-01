@@ -1,7 +1,7 @@
 // Strict mode (Course: Activating Strict Mode)
 'use strict';
 
-// Fetch and populate slides (Course: Async JavaScript, DOM Manipulation)
+// Fetch and populate slides (updated to handle Swiper reinitialization)
 const fetchPortfolios = async (category = 'web-development') => {
   const slideContainerIds = {
     'web-development': 'web-development-slides',
@@ -15,12 +15,12 @@ const fetchPortfolios = async (category = 'web-development') => {
     const data = await response.json();
     const portfolios = data.portfolios[category] || [];
 
-    // Clear slides for the active tab (Course: Selecting Elements)
+    // Clear slides for the active tab
     const slidesContainer = document.querySelector(`#${slideContainerIds[category]}`);
     if (!slidesContainer) throw new Error(`Slide container for ${category} not found`);
     slidesContainer.innerHTML = '';
 
-    // Populate slides (Course: Looping Arrays, Template Literals)
+    // Populate slides
     slidesContainer.innerHTML = portfolios
       .map(({ id, title, image, alt, link }) => `
         <div class="swiper-slide">
@@ -44,7 +44,16 @@ const fetchPortfolios = async (category = 'web-development') => {
       `)
       .join('');
 
-    // Initialize Swiper and Glightbox after images load (Course: Promises)
+    // Get the slider container
+    const sliderContainer = document.querySelector(`#${category} .portfolios-slider`);
+
+    // Destroy existing Swiper if it exists (prevents stale state on tab revisit)
+    if (sliderContainer.swiper) {
+      sliderContainer.swiper.destroy(true, true);
+      sliderContainer.classList.remove('swiper-initialized'); // Reset for CSS hiding
+    }
+
+    // Initialize Swiper and Glightbox after images load
     const images = slidesContainer.querySelectorAll('img');
     if (images.length === 0) {
       initSwiper(category);
@@ -61,6 +70,7 @@ const fetchPortfolios = async (category = 'web-development') => {
           })
       )
     );
+
     initSwiper(category);
     initGlightbox();
   } catch (error) {
@@ -74,6 +84,25 @@ const fetchPortfolios = async (category = 'web-development') => {
   }
 };
 
+// Tab switching (make async to wait for fetch)
+const setupTabs = () => {
+  const tabs = document.querySelectorAll('[data-tab-target]');
+  const tabContents = document.querySelectorAll('[data-tab-content]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', async () => {  // Add async here
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const target = tab.dataset.tabTarget;
+      tabContents.forEach(content => {
+        content.classList.toggle('active', content.id === target);
+      });
+      await fetchPortfolios(target);  // Await to ensure content loads before proceeding
+      // No need for manual swiper update here—initSwiper handles it
+    });
+  });
+};
+
+// The rest remains the same (initSwiper, initGlightbox, init)
 // Initialize Swiper (Course: Functions)
 const initSwiper = (category) => {
   new Swiper(`#${category} .portfolios-slider`, {
@@ -110,27 +139,7 @@ const initGlightbox = () => {
   });
 };
 
-// Tab switching (Course: Handling Click Events)
-const setupTabs = () => {
-  const tabs = document.querySelectorAll('[data-tab-target]');
-  const tabContents = document.querySelectorAll('[data-tab-content]');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      const target = tab.dataset.tabTarget;
-      tabContents.forEach(content => {
-        content.classList.toggle('active', content.id === target);
-      });
-      fetchPortfolios(target);
-      const swiper = document.querySelector(`#${target} .portfolios-slider`).swiper;
-      if (swiper) {
-        swiper.update();
-        swiper.slideTo(0);
-      }
-    });
-  });
-};
+
 
 // Initialize (Course: Functions Calling Other Functions)
 const init = () => {

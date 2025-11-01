@@ -4,13 +4,13 @@
       {
         "id": "1a",
         "title": "Tailored restaurant website with safari booking features",
-        "image": "assets/img/manyiri-photos/kibo-restaurant-and-safari-manyiri-developers.png",
+        "image": "assets/img/manyiri-photos/kibo-restaurant-and-safari-manyiri-developers.jpg",
         "alt": "Screenshot of Kibo Restaurant and Safari website by Manyiri Developers",
         "link": "https://kiborestaurantwatamu.com/"
       },
       {
         "id": "2a",
-        "title": "Marine logistics service site with fast load time",
+        "title": "Marine logistics service website with fast load time",
         "image": "assets/img/manyiri-photos/boat-cargo-unlashing-manyiri-developers.jpg",
         "alt": "Boat cargo service website designed for Mercury Marine by Manyiri Developers",
         "link": "https://mercurymarineservices.com/"
@@ -18,78 +18,89 @@
       {
         "id": "3a",
         "title": "Charity platform for clean water donations",
-        "image": "assets/img/manyiri-photos/donate-maji-kwa-manyiri-developers.jpg",
-        "alt": "MKW Foundation donation page screenshot developed by Manyiri",
+        "image": "assets/img/manyiri-photos/maji-kwa-watoto-foundation-manyiri-developers.jpg",
+        "alt": "MKW Foundation donation page screenshot developed by Manyiri Developers",
         "link": "https://majikwawatotofoundation.com/"
       },
       {
         "id": "4a",
-        "title": "Educational Bookshop – Digital Storefront [In Progress]",
-        "image": "assets/img/manyiri-photos/mtwapa-textbooks-manyiri-developers.jpg",
-        "alt": "Mtwapa Books Centre online storefront built by Manyiri Developers",
-        "link": "https://www.mtwapabookscenter.com/"
-      }
-      
-    ],
-    "social-media-management": [
-          {
-        "id": "1b",
-        "title": "Boosted LinkedIn for corporate water solutions",
-        "image": "assets/img/manyiri-photos/new-dutch-water-manyiri-developers.jpg",
-        "alt": "LinkedIn social media campaign screenshot for New Dutch Water",
-        "link": "https://www.linkedin.com/company/dutch-water-limited/posts/?feedView=all"
+        "title": "Supermarket Website [Demo]",
+        "image": "assets/img/manyiri-photos/web-apps-code-manyiri-developers.jpg",
+        "alt": "Supermarket website demo for a coastal business",
+        "link": "https://mtwapa-supermarket.web.app/"
       },
       {
+        "id": "5a",
+        "title": "Hotel booking system and guest relations portal [Demo]",
+        "image": "assets/img/manyiri-photos/web-apps-code-manyiri-developers.jpg",
+        "alt": "Grand Hotel online booking system demo by Manyiri Developers",
+        "link": "https://thegrandhotel.manyiridevs.xyz/"
+      }
+    ],
+    "social-media-management": [
+      {
         "id": "2b",
-        "title": "Instagram growth for a creative male brand",
-        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
-        "alt": "Instagram branding for personal influencer profile by Manyiri",
-        "link": "https://www.instagram.com/youngkingjr254/"
+        "title": "Hippo Safari Kenya",
+        "image": "assets/img/manyiri-photos/social-media-marketing-manyiri-developers.jpg",
+        "alt": "Social media campaign for Hippo Safari Kenya",
+        "link": "https://www.instagram.com/hippo.safarikenya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       },
       {
         "id": "3b",
-        "title": "TikTok support for new female content creator",
+        "title": "TikTok growth support for a new female content creator",
         "image": "assets/img/manyiri-photos/lin-manyiri-developers.jpg",
-        "alt": "TikTok creator growth visuals supported by Manyiri Social Media",
-        "link": "https://www.tiktok.com/@its_leih_b"
+        "alt": "TikTok creator growth visuals supported by Manyiri Developers",
+        "link": "https://www.tiktok.com/@_.szn_n.m.l._?fbclid=PAZXh0bgNhZW0CMTEAAadQy1e60KP1FbhbRILyUA_RFuh1BEm3sBlCk9-v9y-KcBj7ZTCaPcEmV5vQtA_aem_qIip7KYpVRVuG3fTcsu2xQ"
       },
       {
         "id": "4b",
-        "title": "Lifestyle storytelling for a coastal brand promoter",
+        "title": "Lifestyle storytelling for a coastal brand influencer",
         "image": "assets/img/manyiri-photos/matilda-manyiri-developers.png",
-        "alt": "Instagram lifestyle feed screenshot for Watamu influencer",
+        "alt": "Instagram lifestyle feed for a Watamu-based influencer",
         "link": "https://www.instagram.com/kadzo.matilda/"
+      },
+      {
+        "id": "5b",
+        "title": "Mercury Marine LinkedIn content strategy",
+        "image": "assets/img/manyiri-photos/social-media-marketing-manyiri-developers.jpg",
+        "alt": "LinkedIn promotion and content management for Mercury Marine Services",
+        "link": "https://www.linkedin.com/company/106962149/admin/dashboard/"
+      },
+      {
+        "id": "6b",
+        "title": "View all our clients’ social media content on Instagram",
+        "image": "assets/img/manyiri-photos/social-media-marketing-manyiri-developers.jpg",
+        "alt": "Social media portfolio placeholder for Manyiri Developers",
+        "link": "https://www.instagram.com/manyiri.devs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       }
-  
-      
     ],
     "photography": [
       {
         "id": "1c",
-        "title": "Strong portraits for professionals and brands",
-        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
-        "alt": "Professional portrait example from Manyiri photography team",
+        "title": "Professional portraits for individuals and brands",
+        "image": "assets/img/manyiri-photos/manyiri-developers-photography.jpg",
+        "alt": "Professional portrait example from the Manyiri photography team",
         "link": "https://www.instagram.com/tuvajoseph.films/"
       },
       {
         "id": "2c",
         "title": "Aerial drone shots that elevate your story",
-        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
+        "image": "assets/img/manyiri-photos/manyiri-developers-photography.jpg",
         "alt": "Drone photography sample by Manyiri Developers",
         "link": "https://www.instagram.com/lex_productions_/"
       },
       {
         "id": "3c",
-        "title": "Shoots anywhere from Mombasa to Malindi",
-        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
-        "alt": "Coastal shoot location photo by Manyiri on Kenyan Coast",
-        "link": "https://www.instagram.com/lex_productions_/"
+        "title": "Photo shoots from Mombasa to Malindi",
+        "image": "assets/img/manyiri-photos/manyiri-developers-photography.jpg",
+        "alt": "Coastal photo shoot example by Manyiri Developers",
+        "link": "https://www.instagram.com/jamesjaymore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       },
       {
         "id": "4c",
-        "title": "Showcasing nature’s finest details",
-        "image": "assets/img/manyiri-photos/grey-placeholder-manyiri-developers.jpg",
-        "alt": "Nature-focused photography by Manyiri",
+        "title": "Capturing nature’s finest details",
+        "image": "assets/img/manyiri-photos/manyiri-developers-photography.jpg",
+        "alt": "Nature photography sample by Manyiri Developers",
         "link": "https://www.instagram.com/tuvajoseph.films/"
       }
     ]

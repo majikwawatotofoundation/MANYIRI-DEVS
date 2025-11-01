@@ -1479,6 +1479,27 @@ section,
     font-size: 14px;
   }
 }
+/* Add this to hide the slider until fully initialized */
+.portfolios-slider:not(.swiper-initialized) {
+  display: none; /* Or use visibility: hidden; if you want to preserve space */
+}
+
+/* Ensure the slider is visible by default once initialized */
+.portfolios-slider {
+  display: block;
+  transition: height 0.3s ease; /* Smooth height changes when switching tabs with different image aspects */
+  overflow: hidden; /* Already there, but reinforces no overflow during transitions */
+}
+
+/* Optional: If you want a fade-in effect after init, add this */
+.portfolios-slider.swiper-initialized {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
